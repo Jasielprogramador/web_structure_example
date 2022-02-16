@@ -5,10 +5,10 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="whatweb">
     <Container>
       <Title>
-        Inkdrop <Badge>2020-</Badge>
+        whatweb <Badge>en desarrollo</Badge>
       </Title>
       <P>
        Aplicacion interactiva para ver cosas en paginas web
@@ -22,7 +22,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/v.png" alt="Whatweb" />
+      <WorkImage src="/images/v.png" alt="whatweb" />
     </Container>
   </Layout>
 )
